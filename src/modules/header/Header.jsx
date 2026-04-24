@@ -102,12 +102,7 @@ function Header() {
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
-          <li>
-            <a href="/shop" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors duration-300 relative group">
-              Shop
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-          </li>
+         
           <li className="ml-2">
             <a 
               href="/#contact" 
@@ -173,9 +168,7 @@ function Header() {
             <Link to="/trainers" onClick={closeMobileMenu} className="bg-white/5 p-5 rounded-2xl border border-white/10 text-center">
               <span className="text-xl font-bold text-white">Trainers</span>
             </Link>
-            <a href="/shop" target="_blank" className="bg-white/5 p-5 rounded-2xl border border-white/10 text-center">
-              <span className="text-xl font-bold text-white">Shop</span>
-            </a>
+          
         </div>
 
         <div className="w-full max-w-md mx-auto px-6 mt-8">

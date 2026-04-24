@@ -46,7 +46,7 @@ const PricingCard = ({ plan }) => {
         ${
           isPopular 
             ? 'bg-neutral-950 border-2 border-neutral-600 hover:border-red-600 shadow-[0_0_30px_rgba(220,38,38,0.2)] scale-100 md:scale-105 z-10' 
-            : 'bg-black border border-gray-500 hover:border-red-600 duration-300 '
+            : 'bg-black border border-gray-500 hover:border-red-600 duration-200 '
         }
       `}
     >
@@ -86,7 +86,7 @@ const PricingCard = ({ plan }) => {
       {/* onClick event add kar diya hai WhatsApp wale function ke liye */}
       <button 
         onClick={handleChoosePlan}
-        className={`cursor-pointer w-full py-3 font-bold text-xs uppercase tracking-widest transition-all duration-300 rounded-sm
+        className={`cursor-pointer w-full py-3 font-bold text-xs uppercase tracking-widest transition-all duration-200 rounded-sm
           ${
             isPopular 
               ? 'bg-red-600 text-white hover:bg-red-700 hover:shadow-[0_0_20px_rgba(220,38,38,0.5)]' 
@@ -155,7 +155,7 @@ const PricingSection = () => {
       <div ref={contentRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         
         <div 
-          className={`transition-all duration-1000 ease-out transform ${
+          className={`transition-all duration-200 ease-out transform ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
           }`}
         >
